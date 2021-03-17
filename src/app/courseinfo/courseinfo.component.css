@@ -1,0 +1,242 @@
+
+body
+{
+    background-color: rgb(228, 210, 210);
+}
+nav ul
+{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(138, 12, 131);
+    border:1px solid gainsboro;
+    color:white;
+}
+nav ul li
+{
+    list-style:none;
+    padding:10px;
+}
+a
+{
+    list-style:none;
+    text-decoration: none;
+    color:white;
+}
+a:hover
+{
+    cursor: pointer;
+    background-color: gainsboro;
+    color:grey;
+}
+.grid-details
+{
+    margin-top:10px;
+    margin-left:25px;
+    margin-right:0px;
+    text-align:center;
+    width:600px;
+    box-shadow:2px 2px 2px 4px  gainsboro;
+    background-image:linear-gradient(90deg,#490fe9 0%,#947ff1 40%,#d497f0 60%); 
+}
+#whole
+{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:320px;
+    width:650px;
+    background-color:grey;
+    border:10px solid gainsboro;
+}
+.course
+{
+    margin-left:10px;
+    padding-top:10px;
+}
+.course ul
+{
+    margin:5px;
+    display:flex;
+}
+.course ul li
+{
+    margin-top:2px;
+    margin-bottom:10px;
+    list-style:none;
+}
+.heading
+{
+    color:white;
+    text-decoration: underline double;
+}
+.list
+{
+    color:black;
+    font-size:18px;
+}
+#option
+{
+    text-align:center;
+}
+#option ul
+{
+    display:flex;
+}
+#option ul li
+{
+    list-style:none;
+    padding-left:15px;
+    padding-right:15px;
+}
+select
+{
+    font-size:15px;
+    width:160px;
+    height:25px;
+    border:2px solid gray;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+p
+{
+    margin-left:20px;
+    text-transform: uppercase;
+    font-size:20px;
+    text-decoration: underline;
+}
+#head,#op
+{
+    margin-left:320px;
+}
+#date
+{
+  margin-left:50px;
+  margin-right:100px;
+}
+#date,#provide,#subject
+{
+    background-color:gainsboro;
+    color:black;
+    padding:5px;
+    box-shadow: 5px 5px 5px 5px solid grey;
+}
+#provide
+{
+    margin-left:90px;
+}
+button
+{
+    border-radius:25px;
+    width:135px;
+    height:50px;
+    background-color:rgb(97, 5, 97);
+    color:white;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+    border:2px solid;
+    margin:10px;
+    margin-left:580px;
+}
+button:hover
+{
+    background-color:rgb(70, 3, 70);
+    color:white;
+    cursor: pointer;
+}
+@media screen and (max-width:999px)
+{
+    nav ul li
+    {
+        padding:5px;
+    }
+    .grid-details
+    {
+        margin-top:5px;
+        margin-left:15px;
+        margin-right:0px;
+        text-align:center;
+        width:400px;
+        box-shadow:2px 2px 2px 2px  gainsboro;
+        background-image:linear-gradient(90deg,#490fe9 0%,#947ff1 40%,#d497f0 60%); 
+    }
+    select 
+    {
+        margin-left:0px;
+    }
+    #option ul li
+    {
+        font-size:12px;
+    }
+    #whole
+    {
+        padding-top:5px;
+        padding-bottom:5px;
+        margin-left:0px;
+        width:440px;
+        background-color:grey;
+        border:5px solid gainsboro;
+    }
+
+    .course
+    {
+        margin-left:0px;
+        padding-top:5px;
+    }
+        .course ul 
+    {
+        margin-top:2px;
+        margin-bottom:5px;
+        margin-left:0px;
+        padding:4px;
+
+    }
+    #op
+    {
+        margin-left:0px;
+    }
+    #head
+    {
+        margin-left:0px;
+    }
+        .list
+    {
+        color:black;
+        font-size:14px;
+    }
+        #option ul li
+    {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    select
+    {
+        font-size:12px;
+        width:100px;
+        height:20px;
+    }
+    p
+    {
+        margin-left:40px;
+    }
+    #date
+    {
+        margin-left:0px;
+        margin-right:5px;
+    }
+    #subject
+    {
+        margin-right:0px;
+    }
+        #provide
+    {
+        margin-left:5px;
+    }
+    button
+    {
+        border-radius:20px;
+        width:115px;
+        height:40px;
+        font-size:12px;
+        border:2px solid;
+        margin:5px;
+        margin-left:400px;
+    }
+}

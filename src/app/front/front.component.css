@@ -1,0 +1,237 @@
+body
+{
+    background-color: rgb(228, 210, 210);
+}
+nav
+{
+    height:80px;
+}
+nav ul
+{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(138, 12, 131);
+    color:white;
+}
+
+nav ul li
+{
+    list-style:none;
+    padding:6px;
+}
+#data
+{
+    margin-left:45px;
+    width:480px;
+}
+.pattern
+{
+   height:500px;
+   position:absolute;
+   margin-left:160px;
+   /*background-color:purple;*/
+   background-image:linear-gradient(90deg,#490fe9 0%,#947ff1 40%,#d497f0 60%); 
+}
+img
+{
+    margin-top:10px;
+    width:380px;
+    height:360px;
+    background-color: purple;
+    border-radius:80%;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+.details
+{
+    display:flex;
+    justify-content: space-between;
+    padding-right:80px;
+}
+h3
+{
+    font-size:16px;
+    margin-top:28px;
+    margin-left:10px;
+    padding-left:10px;
+    color:white;
+}
+h2
+{
+    font-size:25px;
+    color:white;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom: 0px;
+}
+h1
+{
+    font-size:25px;
+    color:white;
+    padding:10px;
+    margin-top:60px;
+    margin-bottom: 0px;
+}
+p
+{
+margin-top:20px;
+margin-left:10px;
+font-size:15px;
+color:gold;
+}
+button
+{
+    margin-left:10px;
+    border-radius:25px;
+    width:135px;
+    height:50px;
+    background-image:linear-gradient(90deg,#1e085a 0%,#6b4de4 40%,#7f15b1 60%); 
+    color:white;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+    border:2px solid;
+    margin-top:40px;
+}
+button:hover
+{
+    cursor: pointer;
+    outline:none;
+}
+#blog 
+{
+    position: relative;
+    display:flex;
+    margin-left:190px;
+    margin-top:380px;
+    height:260px;
+    width:300px;
+}
+#blog ul
+{
+ /*   background-color: palegoldenrod;*/
+ background-color: white;
+}
+#blog ul li
+{
+    margin-left:50px;
+    margin-right:60px;
+    list-style:none;
+    padding-left:10px;
+    padding-top:10px;
+    margin-bottom:0px;
+    width:150px;
+}
+#para
+{
+    text-align:justify;
+    color:grey;
+}
+#img
+{
+    height:45px;
+    width:50px;
+}
+a:hover
+{
+    background-color: gainsboro;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer
+{
+    margin-top:0px;
+    height:50px;
+   /* background-color:rgb(138, 12, 131);*/
+    padding-top:5px;
+    font-size:18px;
+}
+footer ul
+{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(138, 12, 131);
+    color:white;
+}
+footer ul li
+{
+    margin-top:0xp;
+    list-style:none;
+    padding-right:15px;
+}
+h4
+{
+    margin-top:0px;
+}
+#img1
+{
+    width:30px;
+    height:30px;
+}
+#contact
+{
+    background-color:blue;
+    padding:2px;
+    margin-top:25px;
+}
+@media screen and(max-width:999px)
+{
+    nav ul li
+    {
+        justify-content: none;
+        padding:2px;
+        font-size:10px;
+    }
+        #data
+    {
+        margin-left:30px;
+        width:450px;
+    }
+    .pattern
+    {
+    height:500px;
+    position:absolute;
+    margin-left:160px;
+    /*background-color:purple;*/
+    background-image:linear-gradient(90deg,#490fe9 0%,#947ff1 40%,#d497f0 60%); 
+    }
+        img
+    {
+        margin-top:10px;
+        width:auto;
+        height:auto;
+    }
+    .details
+    {
+        display:flex;
+        justify-content: space-between;
+        padding-right:30px;
+    }
+        h3
+    {
+        font-size:10px;
+        margin-top:10px;
+        margin-left:0px;
+        padding-left:0px;
+    }
+    h2
+    {
+        font-size:20px;
+        padding:5px;
+        margin-top:15px;
+        margin-bottom: 0px;
+    }
+        h1
+    {
+        font-size:15px;
+        padding:5px;
+        margin-top:40px;
+        margin-bottom: 0px;
+    }
+    p
+    {
+    margin-top:10px;
+    margin-left:5px;
+    font-size:12px;
+    color:gold;
+    }
+}

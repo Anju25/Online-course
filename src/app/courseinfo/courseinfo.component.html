@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><h2>OnLine_CoUrSe</h2></li>
+            <li><h3><a routerLink="">HOME</a></h3></li>
+        </ul>
+    </nav>
+    <div id="option">
+        <p>you can search the course based on the following:</p>
+        <ul id="head">
+            <li id="date">DATE</li>
+            <li id="subject">SUBJECT</li>
+            <li id="provide">PROVIDERS</li>
+        </ul>
+        <ul id="op">
+        <li><select (click)="onclick('index1')" (change)="selectchangevalue1($event)"><option *ngFor="let i of date">{{ i[index1] }} </option></select></li>
+        <li><select (click)="onclick('index2')" (change)="selectchangevalue($event)"><option *ngFor="let i of subject">{{ i[index2] }}</option></select></li>
+        <li><select (click)="onclick('index3')" (change)="selectchangevalue($event)"><option *ngFor="let i of provider">{{ i[index3] }}</option></select></li>
+        </ul>
+        <h2>{{ msg }}</h2>
+    </div>
+    <div id="whole">
+    <div class="grid-details" *ngFor="let i of courses">
+        <div *ngFor="let j of index" class="course">
+            <ul>
+                <li class="heading">{{ j | uppercase}}</li>
+                <li>>></li>
+                <li class="list">{{ i[j] }}</li>
+            </ul>  
+           <!-- <h3>{{ j }} >></h3><h4>{{ i[j] }}</h4>-->
+        </div>
+    </div>
+   </div>
+   <button (click)="loadmore()">LOAD MORE</button>
+</body>
+</html>
+<!-- <h3>Instituion:{{ i.uni }}</h3>
+                <h3>Start Date:{{ i.date }}</h3>
+                <h3>Subject:{{i.parentsub }}</h3>-->
